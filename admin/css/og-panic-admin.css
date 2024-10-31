@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.ogpanic-theme-selector input[type="radio"]{
+  display: none;
+}
+
+.ogpanic-theme-selector input[type="radio"] + label {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.ogpanic-theme-selector input[type="radio"]:checked + label {
+    background-color: #f7fcfe;
+}
+
+.ogpanic-theme-selector input[type="radio"]:checked + label::before {
+  content: '';
+  border-left: 4px solid #00a0d2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+  width: 0;
+}
+
+.ogpanic-theme-selector label > img {
+  width: 400px;
+  height: 210px;
+  border-radius: 5px;
+}

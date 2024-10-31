@@ -1,0 +1,110 @@
+# Copyright (C) 2019 Rakuraku Jyo
+# This file is distributed under the same license as the OGPanic plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: OGPanic 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ogpanic\n"
+"POT-Creation-Date: 2020-01-08T02:43:59+00:00\n"
+"PO-Revision-Date: 2019-12-12T02:37:32+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: og-panic\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/partials/og-panic-admin-display.php:25
+msgid "<a href=\"https://ogpanic.com\" target=\"_blank\">OGPanic</a> is an easy-to-use web service for generating beautiful og-images. OGPanic is still in beta test, go to the <a href=\"https://ogpanic.com\">website</a> to get invitation."
+msgstr "<a href=\"https://ogpanic.com\" target=\"_blank\">OGPanic</a>は、美しいOGP画像を生成するための使いやすいWebサービスです。OGPanicはまだβテスト中です。招待状を入手するには、<a href=\"https://ogpanic.com\">ここに登録</a>してください。"
+
+#: admin/partials/og-panic-admin-display.php:51
+msgid "API Token"
+msgstr "APIトークン"
+
+#: admin/partials/og-panic-admin-display.php:90
+msgid "Choose Image"
+msgstr "画像を選択"
+
+#: admin/partials/og-panic-admin-display.php:96
+msgid "Danger Zone"
+msgstr "危険あり"
+
+#: admin/js/post-editor.js:43
+msgid "Disable OGPanic for this post"
+msgstr "この記事にはOGPanicを使用しない"
+
+#: admin/partials/og-panic-admin-display.php:47
+msgid "Endpoint URL"
+msgstr "サービスAPI URL"
+
+#: admin/class-og-panic-admin.php:223
+msgid "Error happened when sending data to API. Endpoint or Token is not correct."
+msgstr "APIにメタデータを送信する際にエラーが発生しました。API URLまたはトークンが正しくありません。"
+
+#: admin/partials/og-panic-admin-display.php:30
+msgid "Hide author of the post"
+msgstr "記事の作者を非表示に"
+
+#: admin/partials/og-panic-admin-display.php:29
+msgid "Hide site logo"
+msgstr "サイトのロゴを非表示に"
+
+#: admin/partials/og-panic-admin-display.php:85
+msgid "Logo Image"
+msgstr "ロゴ画像"
+
+#: admin/class-og-panic-admin.php:229
+msgid "Meta data uploaded."
+msgstr "メタデータをアップロードしました。"
+
+#. Plugin Name of the plugin
+#: admin/class-og-panic-admin.php:109
+msgid "OGPanic"
+msgstr "OGPanic"
+
+#: admin/class-og-panic-admin.php:108 admin/js/post-editor.js:62
+msgid "OGPanic Settings"
+msgstr "OGPanic 設定"
+
+#. Description of the plugin
+msgid "OGPanic generates beautiful og-images automatically from your post's title, featured image and etc."
+msgstr "OGPanicは、投稿のタイトル、注目の画像などから美しいOGP画像を自動的に生成します。"
+
+#: admin/class-og-panic-admin.php:204
+msgid "Options saved."
+msgstr "設定を保存しました"
+
+#: admin/partials/og-panic-admin-display.php:31
+msgid "Show category name of the post"
+msgstr "カテゴリ名を表示に"
+
+#: admin/partials/og-panic-admin-display.php:55
+msgid "Theme"
+msgstr "テーマ"
+
+#: admin/js/post-editor.js:28
+msgid "Theme to use"
+msgstr "テーマを選択"
+
+#: admin/partials/og-panic-admin-display.php:100
+msgid "Upload all posts' meta data"
+msgstr "全て記事のメタデータをアップロード"
+
+#: admin/partials/og-panic-admin-display.php:103
+msgid "Upload all posts' title, featured image url and other public infomation to OGPanic. If you have a lot of posts, it takes some time."
+msgstr "すべての記事のタイトル、注目の画像のURLや、その他の公開情報をOGPanicにアップロードします。多数の記事がある場合は、時間がかかります。"
+
+#: admin/partials/og-panic-admin-display.php:68
+msgid "Visual Options"
+msgstr "テーマ設定"
+
+#: admin/partials/og-panic-admin-display.php:92
+msgid "Your site logo will be used automatically, but you can specify your own for better visial effect."
+msgstr "サイトのロゴ画像は自動的に使用されますが、視覚効果を高めるために、上下余白のない透明のPNGファイルがおすすめです。ここでロゴ画像を指定または更新した場合は、全記事のメタデータを一度更新してください。"
+
+#. Plugin URI of the plugin
+msgid "https://ogpanic.com"
+msgstr "https://ogpanic.com"
